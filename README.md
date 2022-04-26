@@ -1,8 +1,8 @@
 # Money to Change
 
-## What the app does
+## What the program does
 
-The code will turn any value of money in USD to the corresponding value in bills/coins.
+The code will turn any value of money in USD to the corresponding value in bills/coins. 
 
 ## Example
 ```
