@@ -2,7 +2,7 @@
 class Change:
     def __init__(self, hundred, fifty, twenty, ten, five, dollar, quarter, dime, nickel, penny):
         self.c = [hundred, fifty, twenty, ten, five, dollar, quarter, dime, nickel, penny]
-    def __init__(self, money) -> None:
+    def __init__(self, money):
         ratio_list = [100, 50, 20, 10, 5, 1, 0.25, .10, .05, 0.01]
         c_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
         for i in range(len(ratio_list)):
