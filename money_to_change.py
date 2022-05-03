@@ -26,7 +26,5 @@ class Change:
                     change_string += str(self.c[i]) + change_string_list_p[i] + ", "
         return change_string[0:len(change_string)-2]
 
-##FUNCTIONS
-
 ## CODE
 print(Change(37.49))
